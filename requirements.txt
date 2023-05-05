@@ -1,0 +1,29 @@
+npx create-next-app --typescript
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+npm install react react-dom
+
+npm install --save-dev @types/react @types/react-dom
+
+npx prisma init
+
+npm install @prisma/client
+
+npx prisma db push
+
+npm install next-auth
+
+npm install -D @types/bcrypt
+
+npm install react-icons
+
+npm install swr  
+
+npm install lodash
+
+npm install -D @types/lodash
+
+npm install zustand
